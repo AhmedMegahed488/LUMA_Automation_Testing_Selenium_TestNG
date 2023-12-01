@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:\Courses\1 notes\Selenuim Course TAU\aITI project\LUMA_eCommerce_Website\src\test">
+        <classes>
+            <class name="AddProductsToCartTests">
+                <methods>
+                    <include name="verifyAddProductsToCartWithValidData"/>
+                    <include name="VerifyErrorMassageWhenClickOnAddToCartWithoutDetermineSize"/>
+                    <include name="VerifyErrorMassageWhenClickOnAddToCartWithoutDetermineColor"/>
+                </methods>
+            </class>
+            <class name="AddressAndPaymentTests">
+                <methods>
+                    <include name="verifyAddressAndPaymentIfItCanWorkCorrectly"/>
+                </methods>
+            </class>
+            <class name="CartTests">
+                <methods>
+                    <include name="checkTheCartIfItCanWorkCorrectly"/>
+                </methods>
+            </class>
+            <class name="RegistrationTests">
+                <methods>
+                    <include name="verifyOfRegistrationByValidData"/>
+                    <include name="VerifyRegisterWhenEnterEmptyFirstname"/>
+                    <include name="VerifyRegisterWhenEnterInvalidEmail"/>
+                    <include name="VerifyRegisterWhenEnterInvalidPasswordWithoutLowerCaseCharactersAndUpperCaseCharacters"/>
+                    <include name="VerifyRegisterWhenEnterInvalidPasswordWithoutLowerCaseCharactersAndSpecialCharacters"/>
+                    <include name="VerifyRegisterWhenEnterInvalidPasswordWithoutSpecialCharactersAndUpperCaseCharacters"/>
+                    <include name="VerifyRegisterWhenEnterValidPasswordWithLengthEqualEightSymbols"/>
+                    <include name="VerifyRegisterWhenEnterValidPasswordWithLengthGreaterThanEightSymbols"/>
+                    <include name="VerifyRegisterWhenEnterValidPasswordWithLengthLessThanEightSymbols"/>
+                    <include name="VerifyRegisterWhenEnterInvalidConfirmPassword"/>
+                </methods>
+            </class>
+            <class name="LoginTests">
+                <methods>
+                    <include name="verifyOfLoginByValidData"/>
+                    <include name="VerifyLoginWhenEnterEmptyEmail"/>
+                    <include name="VerifyLoginWhenEnterEmptyPassword"/>
+                    <include name="VerifyLoginWhenEnterInvalidEmail"/>
+                    <include name="VerifyLoginWhenEnterInvalidPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
