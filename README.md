@@ -44,4 +44,4 @@ allure serve allure-results
 
 ![allure](https://github.com/AhmedMegahed488/LUMA_Automation_Testing_Selenium_TestNG/assets/65961550/9a040bae-57f7-4fe1-8df1-4cee432c4d0a)
 
-**Here is the overall walkthrough of the project:** [Video](https://drive.google.com/file/d/1fx4bMzsdBhugkUjqPKAI1z9UCwFo8W_-/view?usp=sharing)</br>
+**Here is the overall walkthrough of the project:** [Video](https://drive.google.com/drive/folders/1XePPRbPe54i6ITbip0LwTuuzGOlEN8aX)</br>
